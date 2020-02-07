@@ -11,4 +11,4 @@ Robot First Test Case
     Open Browser    ${URL}    ${Browser}
     Maximize Browser Window
     Select Radio Button  add_type  office
-    #Close Browser
+    Close Browser
