@@ -1,7 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
 
-
 *** Variables ***
 ${Browser}    chrome
 ${URL}        https://www.luisabreu.co.uk
@@ -10,5 +9,3 @@ ${URL}        https://www.luisabreu.co.uk
 TC_001 Browser Start and Close
     Open Browser     ${URL}    ${Browser}
     Close Browser
-
-*** Keywords ***
