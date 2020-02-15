@@ -5,7 +5,7 @@ Library    SeleniumLibrary
 
 *** Test Cases ***
 Display Variables Test
-    ${var1}=    set variable  HelloWorld
-    log to console  ${var1}
+    ${var1}=          set variable    HelloWorld
+    log to console    ${var1}
 
 *** Keywords ***
