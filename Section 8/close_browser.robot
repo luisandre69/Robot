@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 
 *** Test Cases ***
-Take screen shoots
+Close Browser test
     open browser  http://www.thetestingworld.com/testings  Chrome
     maximize browser window
     input text  name:fld_username  testing
