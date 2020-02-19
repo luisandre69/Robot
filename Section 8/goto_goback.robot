@@ -3,6 +3,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${URL}  http://www.thetestingworld.com/testings
+
 *** Test Cases ***
 Go to and Go Back test
     open browser    ${URL}    Chrome
