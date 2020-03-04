@@ -5,12 +5,10 @@ Library  SeleniumLibrary
 ${url}  https://thetestingworld.com
 
 *** Test Cases ***
-Page Should Contains Element Test
+Validate Checkbox Test
     open browser  ${url}  Chrome
     maximize browser window
+    page should contain  VIDEOS
+    page should not contain  VIDEOS1111
     click element  xpath://a[text()='Login']
-    select checkbox  name:remember
-    checkbox should be selected  name:remember
-    select checkbox  name:remember
-    checkbox should not be selected  name:remember
     close browser
