@@ -5,6 +5,7 @@ Library  String
 *** Variables ***
 ${url}  https://thetestingworld.com/testings
 ${text}  Register now and kick start your career as a Software Testing Pro!
+
 *** Test Cases ***
 Validate text on element Test
     open browser  ${url}  Chrome
