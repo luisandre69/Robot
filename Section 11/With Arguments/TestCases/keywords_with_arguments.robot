@@ -6,7 +6,7 @@ ${Browser}    Chrome
 ${URL}        http://www.thetestingworld.com/testings
 
 *** Test Cases ***
-Keywords without arguments test
+Keywords with arguments test
     #Start Browser and Maximize    http://www.thetestingworld.com/testings    Chrome
     Start Browser and Maximize    ${URL}  ${Browser}
     Close Browser
