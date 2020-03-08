@@ -1,6 +1,6 @@
 *** Settings ***
-Library  SeleniumLibrary
-Resource  ../Resources/resources_keywords_without_arguments.robot
+Library     SeleniumLibrary
+Resource    ../Resources/resources_keywords_without_arguments.robot
 *** Variables ***
 
 *** Test Cases ***
