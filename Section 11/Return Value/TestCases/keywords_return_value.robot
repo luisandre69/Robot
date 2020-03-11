@@ -1,6 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource    ../Resources/resources_keywords_return_value.robot
+
 *** Variables ***
 ${Browser}    Chrome
 ${URL}        http://www.thetestingworld.com/testings
