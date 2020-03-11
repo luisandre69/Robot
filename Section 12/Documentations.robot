@@ -1,11 +1,16 @@
 *** Settings ***
-Library  SeleniumLibrary
+Library     SeleniumLibrary
+Resource    Resources/resources_documentation.robot
+Documentation  This File having testcate of testing ABC Functionality
 
-***Variables ***
-${Browser}  Chrome
-${URL}  google.com
+*** Variables ***
+${Browser}    Chrome
+${URL}        http://www.thetestingworld.com/testings
 
 *** Test Cases ***
-Add Documentations Test
-    open Browser  ${URL}  ${Browser}
-    close_browser
+Documentation test
+    [Documentation]  This test case is to check registration functionality of Application
+    ${Res}=  Start Browser and Maximize    ${URL}  ${Browser}
+    log  ${Res}
+    Input Text  name:fld_username  ${Res}
+    Close Browser
