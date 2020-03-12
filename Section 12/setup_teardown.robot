@@ -17,4 +17,4 @@ Setup and Teardown Test
     Input User Email password
 
 Robot Next Test Case
-    Select Radio Button add_type  office
+    Select Radio Button  add_type  office
