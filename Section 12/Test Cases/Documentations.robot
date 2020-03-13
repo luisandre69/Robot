@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource    Resources/resources_documentation.robot
+Resource    ../Resources/resources_documentation.robot
 Documentation  This File having testcase of testing ABC Functionality
 
 *** Variables ***

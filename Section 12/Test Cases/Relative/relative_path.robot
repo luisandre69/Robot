@@ -1,6 +1,7 @@
 *** Settings ***
 Library         SeleniumLibrary
-Resource        Resources/resources_setup_teardown.robot
+#Full Path: Resource        C:/Users/Luis Abreu/Documents/GitHub/Robot/Section 12/Resources/resources_setup_teardown.robot
+Resource        ../../Resources/resources_setup_teardown.robot
 
 Test Setup      Start Browser and Maximize  ${URL}  ${Browser}
 Test Teardown   Close Browser Window
@@ -11,7 +12,7 @@ ${URL}          http://www.thetestingworld.com/testings
 
 
 *** Test Cases ***
-Setup and Teardown Test
+Relative Path Test
     # [Setup]  Start Browser and Maximize  ${URL}  ${Browser}  
     # [Teardown]  Close Browser Window
     Input User Email password

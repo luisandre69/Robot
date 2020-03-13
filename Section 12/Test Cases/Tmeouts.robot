@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource    Resources/resources_timeout.robot
+Resource    ../Resources/resources_timeout.robot
 Test Timeout  5s
 
 *** Variables ***
