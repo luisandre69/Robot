@@ -136,3 +136,7 @@ report.html
 
 #allow 
 !Screenshot/*.png
+
+# Metrics
+metrics-*.html
+
