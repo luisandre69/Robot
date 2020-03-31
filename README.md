@@ -12,3 +12,9 @@ https://github.com/adiralashiva8/robotframework-metrics
 5. tag1ANDtag2
 6. tag1NOTtag2
 7. tag1ORtag2
+
+# Report Files Locations
+1. -r ./Report/Report.html(report location)
+2. -o ./Report/output.xml (report location)
+3. -l ./Report/log.html (report location)
+4. -r {location} -o {location} --l {location} (allow to save report output and logs in another location)
