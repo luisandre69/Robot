@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    Resources/resources_tags.robot
+Resource    ../Resources/resources_tags.robot
 Test Setup  Start Browser and Maximize  ${URL}  ${Browser}
 Test Teardown  Close Browser Window
 

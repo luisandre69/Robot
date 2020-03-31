@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource    Resources/resources_tags.robot
+Resource    ../Resources/resources_tags.robot
 Documentation  This File is for testing before after suite
 Test Setup  Start Browser and Maximize  ${URL}  ${Browser}
 Test Teardown  Close Browser Window
@@ -13,12 +13,5 @@ ${email}  test@test.com
 ${password}  Abc123!
 
 *** Test Cases ***
-Form values test case
-    input text  name:fld_username  ${username}
-    input text  name:fld_username  ${email}
-    input text  name:fld_password  ${password}
-
 Radio Button Test Cases
     Select Radio Button  add_type  office
-
-
