@@ -1,11 +1,9 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource    ../Resources/resources_before_after_test_suite.robot
+Resource    Resources/resources_before_after_test_suite.robot
 Documentation  This File is for testing before after suite
 Test Setup  Start Browser and Maximize  ${URL}  ${Browser}
 Test Teardown  Close Browser Window
-Suite Setup  Before Each Test Suite
-Suite Teardown  After Each Test Suite
 
 *** Variables ***
 ${Browser}    Chrome
