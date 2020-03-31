@@ -13,5 +13,10 @@ ${email}  test@test.com
 ${password}  Abc123!
 
 *** Test Cases ***
-Radio Button Test Cases
+Office Radio Button Test Cases
+    [tags]  Smoke
     Select Radio Button  add_type  office
+    
+Home Radio Button Test Cases
+    [tags]  Regression
+    Select Radio Button  add_type  home
