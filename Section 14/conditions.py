@@ -31,7 +31,7 @@ else:
     print("Valid")
 # %%  AND
 i = input("Insert a number between 0 and 100:")
-if(int(i) >= 0 and int(i)%2==0):
+if(int(i) >= 0 and int(i) % 2 == 0):
     print("Valid")
 else:
     print("Invalid")
