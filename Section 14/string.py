@@ -40,6 +40,3 @@ print(emailAddress[4:])
 # %% fetch substring by giving end index only
 emailAddress = "luisandre_69@hotmail.com"
 print(emailAddress[:4])
-
-
-# %%
