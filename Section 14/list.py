@@ -28,3 +28,16 @@ print(list1)
 list1 = [34, 43.22, "Test", 123, "abc", 12.2]
 list1.remove(123)
 print(list1)
+
+# %%
+list1 = [34, 43.22, "Test", 123, "abc", 12.2]
+print(len(list1))
+
+# %%
+list1 = [34, 43.22, "Test", 123, "abc", 12.2]
+list2 = ["Test", 123, "abc", 12.2]
+list3 = list1 + list2
+print(list3)
+
+
+# %%
