@@ -36,7 +36,5 @@ for i in tuple1:
 # %%
 tuple1 = [34, 43.22, "Test", 123, "abc", 12.2, 34, 35, 34, 123]
 i = len(tuple1)
-for i in range (0,i):
+for i in range(0, i):
     print(tuple1[i])
-
-# %%
