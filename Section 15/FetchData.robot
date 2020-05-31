@@ -11,7 +11,8 @@ Robot Fetch Data
     Maximize Browser Window
     ${PageTitle}=  Get Title
     Log  ${PageTitle}
-    
-    Input Text  name:fld_username  test
-    Input Text  name:fld_email  test@test.com
-    Input Text  name:fld_password  ABC123
+    ${Speed}=  Get Selenium Speed
+    Log  ${Speed}
+    # Input Text  name:fld_username  test
+    # Input Text  name:fld_email  test@test.com
+    # Input Text  name:fld_password  ABC123
