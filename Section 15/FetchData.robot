@@ -13,6 +13,8 @@ Robot Fetch Data
     Log  ${PageTitle}
     ${Speed}=  Get Selenium Speed
     Log  ${Speed}
-    # Input Text  name:fld_username  test
-    # Input Text  name:fld_email  test@test.com
-    # Input Text  name:fld_password  ABC123
+    ${Value}  Get Value  xpath://input[@type='submit']
+    Log  ${Value}
+    ${Text}  Get Text  xpath://a[@class='displayPopup']
+    Log  ${Text}
+    Close Browser
