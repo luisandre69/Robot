@@ -12,4 +12,8 @@ Robot Fetch Data
     Select From List By Index  name:sex  1
     ${Val}=  Get Selected List Value  name:sex
     Log  ${Val}
+    ${Text}=  Get Selected List Label  name:sex
+    Log  ${Text}
+    ${AllLabels}=  Get List Items  name:sex
+    log  ${AllLabels} 
     Close Browser
