@@ -1,5 +1,5 @@
 *** Settings ***
-Resource  Resources_Keywords_part1.robot
+Resource  Resources_Keywords.robot
 
 *** Variables ***
 ${Browser}  Chrome
