@@ -25,3 +25,8 @@ Create Folder at Runtime
     create_folder  ${folderName}
     create_sub_folder  ${subFolderName}
     Log  "Task Done Successfully"
+
+Concatename Val1 and Val2
+    [Arguments]  ${Val1}  ${Val2}
+    ${resultval}=  concatenate_two_values  ${Val1}  ${Val2}
+    Log  ${resultval}
