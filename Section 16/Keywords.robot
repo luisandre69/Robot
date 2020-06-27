@@ -7,7 +7,7 @@ ${URL}  http://thetestingworld.com/testings
 
 *** Test Cases ***
 Robot Fetch Data
-    Create Foder at Runtime
+    Create Folder at Runtime  Hello  Hello123
     Open Browser  ${URL}  ${Browser}
     Maximize Browser Window
     ${ActualURL}=  Get Location
