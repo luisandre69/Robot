@@ -20,7 +20,13 @@ before each Test Suite
 After each Test Suite
     Log  After Test Suite 
 
-Create Foder at Runtime
-    create_folder
-    create_sub_folder
+Create Folder at Runtime
+    [Arguments]  ${folderName}  ${subFolderName}
+    create_folder  ${folderName}
+    create_sub_folder  ${subFolderName}
     Log  "Task Done Successfully"
+
+Concatename Val1 and Val2
+    [Arguments]  ${Val1}  ${Val2}
+    ${resultval}=  concatenate_two_values  ${Val1}  ${Val2}
+    Log  ${resultval}
