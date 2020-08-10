@@ -12,11 +12,3 @@ class A:
     def mul(self, a, b):
         c = a*b
         return c
-
-
-obj = A()
-
-obj.sum(100, 10)
-
-x = obj.mul(100, 10)
-print("x:", x)
