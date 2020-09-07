@@ -10,6 +10,14 @@ def testingPythonModuleFunctions():
     print("This is a Python Module fucntion")
 
 
+def sum(a, b):
+    c = a + b
+    return c
+
+
 class A:
+    def __init__(self):
+        print("This is a constructor")
+
     def testing(self):
         print("This is a class function")
